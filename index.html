@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#5b4bdb">
+<title>دریافت بازی آموزشی</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap');
+:root{--ink:#292454;--purple:#6756df;--pink:#ed78b8}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:"Vazirmatn",Tahoma,sans-serif;color:var(--ink);
+background:radial-gradient(circle at 15% 15%,#ffd9ee 0,transparent 30%),
+radial-gradient(circle at 85% 80%,#c8e9ff 0,transparent 32%),
+linear-gradient(135deg,#f8efff,#e9f4ff 55%,#fff1f7);
+display:flex;align-items:center;justify-content:center;padding:28px 16px;overflow-x:hidden}
+.glow{position:fixed;border-radius:50%;filter:blur(2px);opacity:.45;pointer-events:none}
+.g1{width:180px;height:180px;background:#d8c8ff;top:5%;right:4%}
+.g2{width:130px;height:130px;background:#ffc9e5;bottom:6%;left:5%}
+.card{width:min(100%,540px);position:relative;padding:34px 28px 26px;border:1px solid #ffffffc9;
+background:#ffffffb8;backdrop-filter:blur(18px);border-radius:30px;
+box-shadow:0 24px 70px #6653a326;text-align:center;animation:rise .7s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border-radius:50px;
+background:#eeeaff;color:#5b4bca;font-size:13px;font-weight:700}
+.icon{width:92px;height:92px;margin:22px auto 14px;border-radius:28px;display:grid;place-items:center;
+font-size:45px;background:linear-gradient(145deg,#7867ed,#a58af6 55%,#ef91c5);
+box-shadow:0 13px 28px #7867ed42}
+h1{font-size:clamp(25px,6vw,34px);margin:10px 0 12px;color:#352b75}
+.lead{font-size:15px;line-height:2.1;color:#666184;margin:0 auto 22px;max-width:420px}
+.download{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;
+color:white;font-weight:800;font-size:17px;padding:16px 20px;border-radius:17px;
+background:linear-gradient(100deg,#5b4bdb,#9274ee 60%,#df79b5);
+box-shadow:0 12px 24px #7867ed45;transition:.2s}
+.download:hover{transform:translateY(-3px);box-shadow:0 16px 28px #7867ed55}
+.details{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin:16px 0 24px}
+.pill{font-size:12px;color:#625b85;background:#f4f1ff;border:1px solid #e8e2ff;padding:7px 12px;border-radius:30px}
+hr{border:0;border-top:1px solid #e9e4f5;margin:22px 0}
+.info-title{font-size:14px;color:#8a80b1;font-weight:700;margin-bottom:13px}
+.info{display:grid;gap:10px;text-align:right}
+.row{padding:11px 14px;border-radius:13px;background:#faf8ff;border:1px solid #f0ebff;font-size:14px;color:#514b72}
+.row strong{color:#6b55cb}
+.thanks{margin:22px 0 0;color:#9b91b7;font-size:12px;line-height:2}
+@media(max-width:420px){.card{padding:27px 18px 22px;border-radius:24px}.row{font-size:13px}}
+</style>
+</head>
+<body>
+<div class="glow g1"></div><div class="glow g2"></div>
+<main class="card">
+  <div class="badge">✦ صفحه دریافت بازی آموزشی ✦</div>
+  <div class="icon" aria-hidden="true">🎮</div>
+  <h1>سلام خانم جندقیان عزیز 🌷</h1>
+  <p class="lead">به صفحه دریافت بازی آموزشی من خوش آمدید.<br>
+  برای دریافت بازی، روی دکمه زیر بزنید.</p>
+  <a class="download" href="razshadabi-v1.1.0-2.apk" download>
+    <span>⬇</span> دانلود بازی
+  </a>
+  <div class="details">
+    <span class="pill">📦 فایل APK</span>
+    <span class="pill">📱 قابل دریافت روی گوشی اندروید</span>
+  </div>
+  <hr>
+  <div class="info-title">مشخصات پروژه</div>
+  <section class="info">
+    <div class="row">✦ <strong>سازنده و ارائه‌دهنده:</strong> زهرا ابراهیمی</div>
+    <div class="row">✦ <strong>نام مدرسه:</strong> دکتر برجیان</div>
+    <div class="row">✦ <strong>نام دبیر:</strong> سرکار خانم جندقیان</div>
+  </section>
+  <p class="thanks">با سپاس از توجه شما 💜<br>ارائه بازی آموزشی با عشق و خلاقیت</p>
+</main>
+</body>
+</html>
